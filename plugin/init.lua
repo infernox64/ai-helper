@@ -50,7 +50,7 @@ end
 
 -- Default configuration
 local default_config = {
-    model = "gemini-3-flash",
+    model = "gemini-3-flash-preview",
     keybinding = {
         key = "i",
         mods = "SUPER",
