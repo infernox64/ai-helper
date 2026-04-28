@@ -67,7 +67,7 @@ local default_config = {
     show_loading = true,
     type = "local",
     api_key = nil, -- Only used for Google API
-    luarocks_path = config.luarocks_path, -- Default path to luarocks binary
+    luarocks_path = luarocks_bin, -- Default path to luarocks binary
 }
 
 local function get_provider(config)
