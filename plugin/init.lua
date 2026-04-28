@@ -50,7 +50,7 @@ end
 
 -- Default configuration
 local default_config = {
-    model = "google/gemma-3-4b",
+    model = "gemini-3-flash",
     keybinding = {
         key = "i",
         mods = "SUPER",
